@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+}
+
+body {
+    min-width:355px;
+    max-width: 500px;;
+    margin:0 auto;
+    text-align: center;
+    background-color: rgb(245, 248, 219);
+    color: #353333;
+    font-size: 35px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.header {
+    margin-top: 20px;
+
+}
+
+.table {
+    margin-top: 30px;
+    text-decoration: blink;
+
+}
+
+.table td {
+    width: 100px;
+    height: 70px;
+    margin-right: 100%;
+    margin-left: 100%;
+    border: 1px rgb(245, 248, 219) solid;
+    font-size: 29px;
+    font-family: sans-serif;
+
+}
+
+td:nth-child(7) {
+    color: #db190b;
+  }
+   
+
+
+.number {
+    font-style: italic;
+
+}
+
+.old,
+.next {
+    color:rgb(158, 157, 154);
+
+}
+
+
+
+.free {
+    background-color: rgba(120, 230, 98, 0.699);
+}
+
+.freeDay {
+    color: #db190b;
+}
+
+.number:hover {
+    background-color: rgb(245, 248, 219);
+}
+
+.number:active {
+    background-color: rgb(245, 248, 219);
+    text-decoration: none;
+    -webkit-transition: 0.1 0.1s;
+-moz-transition: 0.1s 0.1s;
+ -ms-transition: 0.1 0.1s;
+  -o-transition: 0.1 0.1s;
+     transition: 0.1 0.1s;
+}
+
+td:hover {
+    background: rgb(199, 31, 31);
+    color:black;
+ }
+
+
+td {
+    text-decoration: none;
+    -webkit-transition: 0.1 0.1s;
+-moz-transition: 0.1s 0.1s;
+ -ms-transition: 0.1 0.1s;
+  -o-transition: 0.1 0.1s;
+     transition: 0.1 0.1s all ease-in-out;
+}
+
+
+ td:active {
+    background: rgb(199, 31, 31);
+    -webkit-transition: none;
+       -moz-transition: none;
+        -ms-transition: none;
+         -o-transition: none;
+            transition: none;
+    border-radius: 50%;
+    
+ }
+
+.free:hover {
+    background: rgb(60, 243, 4);   
+  }
+
+.free:active {
+    background: rgb(60, 243, 4);   
+
+    -webkit-transition: none;
+       -moz-transition: none;
+        -ms-transition: none;
+         -o-transition: none;
+            transition: none;
+}
+
+.freeDay:hover {
+    background: rgb(60, 243, 4);  
+  }
+
+.freeDay:active {
+    background: rgb(60, 243, 4);   
+
+    -webkit-transition: none;
+       -moz-transition: none;
+        -ms-transition: none;
+         -o-transition: none;
+            transition: none;
+}
+
+a {
+    text-decoration: none;
+    color: #353333;
+}
+
+
+/*
+td:hover:active + .toDay {
+    display: inline-block;
+    background-color: #fff;
+}
+
+*/
